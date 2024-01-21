@@ -16,3 +16,49 @@
     border: 2px solid grey;
     margin: 15px;
 }
+
+
+
+.navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    margin-top: 15px;
+}
+
+.navbar__links {
+    margin-left:auto;
+}
+
+.link {
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid grey;
+    background-color: #FFFAFA;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.link:link,
+.link:visited,
+.link:focus {
+    background-color: #FFFAFA;
+}
+
+.link:hover {
+  background: lightpink;
+  transition: 1s;
+}
+
+.post:hover {
+    border: 2px solid lightpink;
+}
+
+.link:active {
+  background: lightgrey;
+  color: white;
+}
