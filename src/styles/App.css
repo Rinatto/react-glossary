@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFAFA;
+}
+
+.postList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 300px;
+    padding: 15px;
+    border: 2px solid grey;
+    margin: 15px;
+}
