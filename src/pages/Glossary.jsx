@@ -52,11 +52,13 @@ const initialEdges = [
 { id: 'e14-17', source: '14', target: '17' },
 { id: 'e15-17', source: '15', target: '17' },
 ];
- 
+
 export default function Glossary() {
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
+  const [nodes,, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
  
+
+  
   const onConnect = useCallback(
     (params) => setEdges((eds) => addEdge(params, eds)),
     [setEdges],
